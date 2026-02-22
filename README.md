@@ -35,6 +35,102 @@ Upgradeable to industrial-grade NIR sensors and IoT monitoring systems.
 | Industrial Testing | ⏳ Future |
 
 ---
+## 🧱 SolidWorks CAD Directory Overview
+
+The SolidWorks repository contains the complete mechanical and electronics integration design of the Ignitron prototype system.
+
+### 🔹 Main Assemblies
+- `Finalassembly.SLDASM` — Complete system assembly
+- `Assem142.SLDASM` — Subsystem integration assembly
+
+These files combine conveyor, sensors, housings, and electronics into the full prototype layout.
+
+---
+
+### 🔹 Conveyor Subsystem
+
+Folder: `Conveyor/`
+
+Includes:
+
+- Aluminium profile structural design
+- Conveyor belt layout
+- Mechanical frame integration
+- STEP / IGS export formats
+- Animation file (`Conveyor.avi`)
+- Rendering images
+
+This subsystem represents the inline cane transport platform.
+
+---
+
+### 🔹 Arduino & Electronics Modules
+
+Folder: `arduino-uno-r3 snapshot/`
+
+Contains:
+
+- Arduino UNO CAD model
+- STEP export
+- PCB render views
+- Mounting alignment models
+
+Used for embedded processing integration.
+
+---
+
+### 🔹 Integrated Circuit Models
+
+Folder: `integrated-circuit-dip snapshot/`
+
+Includes:
+
+- DIP IC package CAD
+- Electronics mounting references
+- Sensor interface modelling
+
+---
+
+### 🔹 LED & Optical Components
+
+Folder: `standard-5mm-led snapshot/`
+
+Contains:
+
+- 5mm LED CAD model
+- Optical sensing representation
+- IR reflectance module visualization
+
+---
+
+### 🔹 Custom Fabricated Parts
+
+Individual `.SLDPRT` files include:
+
+- IR diode housing  
+- Arduino housing  
+- Capacitive sensing plates  
+- Copper electrode plates  
+- LED display enclosure  
+- Sugarcane sample model  
+
+These parts form the sensing and structural interface of the system.
+
+---
+
+### 🔹 File Formats Provided
+
+For cross-platform compatibility:
+
+- `.SLDPRT` — Native SolidWorks parts  
+- `.SLDASM` — Assemblies  
+- `.STEP` — Universal CAD format  
+- `.IGS` — Surface geometry format  
+- `.X_T` — Parasolid export  
+
+---
+
+> 📌 Note: All subfolders contain snapshots, renders, and export files to support visualization, simulation, and manufacturing workflows.
 
 ## 📁 Useful Links
 
