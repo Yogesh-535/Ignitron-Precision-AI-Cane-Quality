@@ -12,15 +12,21 @@ The proposed system combines infrared optical reflectance sensing and dielectric
 • Sugar mills currently assess cane quality only after crushing
 
 • Refractometer-based testing is destructive and sample-based
+
 • Random sampling leads to inaccurate bulk grading
+
 • Lack of real-time inline quality intelligence during cane flow
 
 **Proposed Solution**
 
 A non-destructive, conveyor-mounted sensing module that:
+
 • Scans intact sugarcane in real time
+
 • Captures optical and dielectric sensor responses
+
 • Uses refractometer-calibrated models for Brix estimation
+
 • Provides continuous bulk quality monitoring before crushing
 
 **Development Status**
@@ -44,6 +50,7 @@ These assemblies illustrate the conveyor platform, sensing modules, housings, an
 **Conveyor & Structural Components**
 
 Folder: conveyor snapshot/
+
 Includes the conceptual conveyor layout, structural frame elements, and integration positioning for inline cane movement.
 
 This represents the conveyor-integrated sensing platform described in the system architecture.
@@ -51,8 +58,11 @@ This represents the conveyor-integrated sensing platform described in the system
 **Electronics & Embedded Module Models**
 
 Includes CAD representations of:
+
 • Arduino module (processing unit)
+
 • NE555 timer component (capacitive sensing interface)
+
 • Integrated circuit DIP models for sensor interfacing
 
 These models indicate the planned embedded signal acquisition architecture.
@@ -60,9 +70,13 @@ These models indicate the planned embedded signal acquisition architecture.
 **Optical & Sensing Components**
 
 Contains:
+
 • IR diode housing (optical sensing module enclosure)
+
 • 5mm LED model (reflectance sensing representation)
+
 • Capacitive copper plates (dielectric sensing electrodes)
+
 • Sugarcane sample model for sensing simulation context
 
 These parts form the multimodal sensing interface of the prototype.
@@ -70,9 +84,13 @@ These parts form the multimodal sensing interface of the prototype.
 **Custom Mechanical Parts**
 
 Individual .SLDPRT files include:
+
 • Arduino housing enclosure
+
 • LED display enclosure
+
 • Sensor mounting structures
+
 • Copper electrode plates for capacitive sensing
 
 These components collectively represent the mechanical integration of sensors and electronics.
@@ -80,7 +98,9 @@ These components collectively represent the mechanical integration of sensors an
 **File Formats Provided**
 
 • .SLDPRT — SolidWorks Part Files
+
 • .SLDASM — Assembly Files
+
 • Snapshot folders — Reference CAD models and component visuals
 
 The CAD design is a conceptual prototype layout intended for validation, integration study, and future physical prototyping.
@@ -88,15 +108,23 @@ The CAD design is a conceptual prototype layout intended for validation, integra
 **Technical Approach**
 
 • Infrared Optical Reflectance Sensing
+
 • Dielectric/Capacitive Property Analysis
+
 • Multimodal Sensor Fusion
+
 • Calibration-Based Brix Estimation (Refractometer Ground Truth)
+
 • Embedded Signal Processing Architecture
 
 **Industrial Relevance & Future Scope**
 
 • Conveyor-integrated non-intrusive deployment
+
 • Upgrade to industrial NIR sensors
+
 • IoT-based monitoring dashboard
+
 • AI-driven predictive calibration models
+
 • Scalable deployment in sugar mills and agro-processing plants
