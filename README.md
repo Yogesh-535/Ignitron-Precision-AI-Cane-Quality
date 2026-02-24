@@ -32,13 +32,15 @@ A non-destructive, conveyor-mounted sensing module that:
 
 ---
 
-## 📊 Development Status  
+## 📊 Development Status
 
-- Concept Ideation — Completed  
-- CAD Modelling — Completed  
-- Prototype Design — In Progress  
-- Calibration Model — Planned  
-- Industrial Validation — Future Phase  
+| Task | Status |
+|------|--------|
+| Concept Ideation | Completed |
+| CAD Modelling | Completed |
+| Prototype Design | In Progress |
+| Calibration Model | Planned |
+| Industrial Validation | Future Phase |  
 
 ---
 
