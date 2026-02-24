@@ -10,6 +10,7 @@ The proposed system combines infrared optical reflectance sensing and dielectric
 **Problem Context**
 
 • Sugar mills currently assess cane quality only after crushing
+
 • Refractometer-based testing is destructive and sample-based
 • Random sampling leads to inaccurate bulk grading
 • Lack of real-time inline quality intelligence during cane flow
