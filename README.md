@@ -1,4 +1,5 @@
-# 🚀 Ignitron — Precision AI for Cane Quality Assessment  
+# 🚀Team Ignitron
+# Precision AI for Cane Quality Assessment  
 ### ⚙️ Conveyor-Integrated Non-Destructive Sugarcane Quality Estimation System  
 
 ---
