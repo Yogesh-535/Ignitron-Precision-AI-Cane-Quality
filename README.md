@@ -37,13 +37,11 @@ Prototype Design — In Progress
 Calibration Model — Planned
 Industrial Validation — Future Phase
 
-**Link for Complete SolidWorks Files:**
+**Complete SolidWorks CAD files and rendered prototype models are provided in the Google Drive link below for design validation and visualization.**
 
 https://drive.google.com/file/d/18Oi22u3dc6CT7pVEHQoQmR2mgXaKgzZI/view
 
 **SolidWorks CAD Directory Overview**
-
-The Google Drive link provided below contains the complete CAD design files and rendered CAD images of the proposed inline non-destructive sugarcane quality assessment prototype developed in SolidWorks.
 
 **Main Assemblies**
 
