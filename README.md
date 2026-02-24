@@ -1,173 +1,88 @@
-# 🚀 Ignitron — Real-Time Non-Destructive Sugarcane Quality Intelligence
+**Ignitron — Precision AI for Cane Quality Assessment
+Conveyor-Integrated Non-Destructive Sugarcane Quality Estimation System**
 
-⚡ Transforming Sugar Mills with Inline AI-Based Brix Estimation
-## 🔎 Executive Summary
+**Executive Summary**
+We are developing a conveyor-integrated multimodal sensing prototype for real-time estimation of sugarcane quality (Brix) without cutting or juice extraction.
 
-Ignitron is a conveyor-integrated multimodal sensing system that estimates sugarcane Brix in real time — without cutting or juice extraction.
+The proposed system combines infrared optical reflectance sensing and dielectric/capacitive sensing to enable inline, pre-crushing quality intelligence in sugar mills, replacing delayed laboratory sampling with continuous real-time analytics.
 
-By combining infrared reflectance and dielectric sensing, the system enables pre-crushing quality intelligence for sugar mills, replacing delayed lab testing with inline analytics.
-## 🌍 Why This Matters
+**Problem Context**
+• Sugar mills currently assess cane quality only after crushing
+• Refractometer-based testing is destructive and sample-based
+• Random sampling leads to inaccurate bulk grading
+• Lack of real-time inline quality intelligence during cane flow
 
-• Sugar mills currently evaluate quality only after crushing  
-• Farmers are paid based on delayed lab sampling  
-• Random sampling causes inaccurate bulk grading  
-• Real-time pre-crushing intelligence improves transparency & efficiency
-## 📈 Scalability & Market Potential
+**Proposed Solution**
+A non-destructive, conveyor-mounted sensing module that:
+• Scans intact sugarcane in real time
+• Captures optical and dielectric sensor responses
+• Uses refractometer-calibrated models for Brix estimation
+• Provides continuous bulk quality monitoring before crushing
 
-India is one of the largest sugarcane producers globally.  
-Ignitron can be deployed across:
+**Development Status**
+Concept Ideation — Completed
+CAD Modelling — Completed
+Prototype Design — In Progress
+Calibration Model — Planned
+Industrial Validation — Future Phase
 
-• Conveyor-based sugar mills  
-• Automated agricultural grading units  
-• Smart agro-processing plants  
+**SolidWorks CAD Directory Overview**
+The Google Drive link provided below contains the complete CAD design files and rendered CAD images of the proposed inline non-destructive sugarcane quality assessment prototype developed in SolidWorks.
 
-Upgradeable to industrial-grade NIR sensors and IoT monitoring systems.
----
+**Main Assemblies**
+Finalassembly.SLDASM — Complete integrated prototype assembly
 
-## 📊 Development Status
+These assemblies illustrate the conveyor platform, sensing modules, housings, and embedded electronics layout.
 
-| Task | Status |
-|------|--------|
-| Concept Ideation | ✅ |
-| CAD Modelling | ✅ |
-| Prototype Design | 🔄 In progress |
-| Calibration Model | 🔄 Planned |
-| Industrial Testing | ⏳ Future |
+**Conveyor & Structural Components**
+Folder: conveyor snapshot/
+Includes the conceptual conveyor layout, structural frame elements, and integration positioning for inline cane movement.
 
----
-## 🧱 SolidWorks CAD Directory Overview
+This represents the conveyor-integrated sensing platform described in the system architecture.
 
-The SolidWorks repository contains the complete mechanical and electronics integration design of the Ignitron prototype system.
+**Electronics & Embedded Module Models**
+Includes CAD representations of:
+• Arduino module (processing unit)
+• NE555 timer component (capacitive sensing interface)
+• Integrated circuit DIP models for sensor interfacing
 
-### 🔹 Main Assemblies
-- `Finalassembly.SLDASM` — Complete system assembly
-- `Assem142.SLDASM` — Subsystem integration assembly
+These models indicate the planned embedded signal acquisition architecture.
 
-These files combine conveyor, sensors, housings, and electronics into the full prototype layout.
-
----
-
-### 🔹 Conveyor Subsystem
-
-Folder: `Conveyor/`
-
-Includes:
-
-- Aluminium profile structural design
-- Conveyor belt layout
-- Mechanical frame integration
-- STEP / IGS export formats
-- Animation file (`Conveyor.avi`)
-- Rendering images
-
-This subsystem represents the inline cane transport platform.
-
----
-
-### 🔹 Arduino & Electronics Modules
-
-Folder: `arduino-uno-r3 snapshot/`
-
+**Optical & Sensing Components**
 Contains:
+• IR diode housing (optical sensing module enclosure)
+• 5mm LED model (reflectance sensing representation)
+• Capacitive copper plates (dielectric sensing electrodes)
+• Sugarcane sample model for sensing simulation context
 
-- Arduino UNO CAD model
-- STEP export
-- PCB render views
-- Mounting alignment models
+These parts form the multimodal sensing interface of the prototype.
 
-Used for embedded processing integration.
+**Custom Mechanical Parts**
+Individual .SLDPRT files include:
+• Arduino housing enclosure
+• LED display enclosure
+• Sensor mounting structures
+• Copper electrode plates for capacitive sensing
 
----
+These components collectively represent the mechanical integration of sensors and electronics.
 
-### 🔹 Integrated Circuit Models
+**File Formats Provided**
+• .SLDPRT — SolidWorks Part Files
+• .SLDASM — Assembly Files
+• Snapshot folders — Reference CAD models and component visuals
 
-Folder: `integrated-circuit-dip snapshot/`
+The CAD design is a conceptual prototype layout intended for validation, integration study, and future physical prototyping.
 
-Includes:
+**Technical Approach**
+• Infrared Optical Reflectance Sensing
+• Dielectric/Capacitive Property Analysis
+• Multimodal Sensor Fusion
+• Calibration-Based Brix Estimation (Refractometer Ground Truth)
+• Embedded Signal Processing Architecture
 
-- DIP IC package CAD
-- Electronics mounting references
-- Sensor interface modelling
-
----
-
-### 🔹 LED & Optical Components
-
-Folder: `standard-5mm-led snapshot/`
-
-Contains:
-
-- 5mm LED CAD model
-- Optical sensing representation
-- IR reflectance module visualization
-
----
-
-### 🔹 Custom Fabricated Parts
-
-Individual `.SLDPRT` files include:
-
-- IR diode housing  
-- Arduino housing  
-- Capacitive sensing plates  
-- Copper electrode plates  
-- LED display enclosure  
-- Sugarcane sample model  
-
-These parts form the sensing and structural interface of the system.
-
----
-
-### 🔹 File Formats Provided
-
-For cross-platform compatibility:
-
-- `.SLDPRT` — Native SolidWorks parts  
-- `.SLDASM` — Assemblies  
-- `.STEP` — Universal CAD format  
-- `.IGS` — Surface geometry format  
-- `.X_T` — Parasolid export  
-
----
-
-> 📌 Note: All subfolders contain snapshots, renders, and export files to support visualization, simulation, and manufacturing workflows.
-
-## 📁 Useful Links
-
-🔗 **Project Presentation (PPT):**  
-https://docs.google.com/presentation/d/1tM_-lebmxQ03n42Rs_t497kaCs9wULIW/edit
-
-🔗 **Complete SolidWorks Files:**  
-https://drive.google.com/file/d/18Oi22u3dc6CT7pVEHQoQmR2mgXaKgzZI/view
-
----
-
-## 🧠 Impact & Future Scope
-
-✔ Industrial conveyor integration  
-✔ IoT cloud dashboard  
-✔ AI-driven predictive accuracy improvements  
-✔ Mobile monitoring dashboard  
-✔ Upgrade to industrial NIR sensors
-
----
-
-## 🏭 Potential Customers
-
-🌾 Sugar Mills  
-🔧 Agro-processing Industries  
-📊 Quality Assurance Labs  
-📈 Smart AgTech Solutions
-
----
-
-## 📜 License
-
-This repository is released for **research, academic, and innovation purposes**.  
-Commercial use requires team approval.
-
----
-
-## 🙌 Acknowledgements
-
-Thank you from team Ignitron.
+**Industrial Relevance & Future Scope**
+• Conveyor-integrated non-intrusive deployment
+• Upgrade to industrial NIR sensors
+• IoT-based monitoring dashboard
+• AI-driven predictive calibration models
+• Scalable deployment in sugar mills and agro-processing plants
