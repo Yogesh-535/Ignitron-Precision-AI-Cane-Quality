@@ -1,34 +1,37 @@
-# 🚀Team Ignitron
-# Precision AI for Cane Quality Assessment  
-### ⚙️ Conveyor-Integrated Non-Destructive Sugarcane Quality Estimation System  
+# Team Ignitron  
+## AI-Driven Sugarcane Quality Intelligence System  
+
+⚙️ **Conveyor-Integrated Non-Destructive Multimodal Sensing & AI Agent System**
 
 ---
 
-## 📌 Executive Summary  
+## 📌 Executive Summary
+We are developing a conveyor-integrated, multimodal sensing system combined with AI to enable real-time, non-destructive estimation of sugarcane quality (Brix) without cutting or juice extraction.
 
-We are developing a conveyor-integrated multimodal sensing prototype for real-time estimation of sugarcane quality (Brix) without cutting or juice extraction.  
+The proposed system integrates infrared optical reflectance sensing and dielectric/capacitive sensing with an **AI-driven prediction model** and an **AI agent layer** to deliver inline, pre-crushing quality intelligence and decision support in sugar mills.
 
-The proposed system combines infrared optical reflectance sensing and dielectric/capacitive sensing to enable inline, pre-crushing quality intelligence in sugar mills, replacing delayed laboratory sampling with continuous real-time analytics.  
+This replaces delayed laboratory sampling with **continuous real-time analytics and intelligent workflow decisions**.
 
 ---
 
-## ⚠️ Problem Context  
-
-- Sugar mills currently assess cane quality only after crushing  
+## ⚠️ Problem Context
+- Sugar mills assess cane quality only after crushing  
 - Refractometer-based testing is destructive and sample-based  
 - Random sampling leads to inaccurate bulk grading  
 - Lack of real-time inline quality intelligence during cane flow  
+- No automated decision support for mill operations  
 
 ---
 
-## 💡 Proposed Solution  
-
-A non-destructive, conveyor-mounted sensing module that:  
+## 💡 Proposed Solution
+A non-destructive, conveyor-mounted AI-enabled sensing system that:
 
 - Scans intact sugarcane in real time  
-- Captures optical and dielectric sensor responses  
-- Uses refractometer-calibrated models for Brix estimation  
-- Provides continuous bulk quality monitoring before crushing  
+- Captures multimodal optical and dielectric sensor responses  
+- Uses an **AI-based prediction model** trained on refractometer ground truth for Brix estimation  
+- Integrates an **AI Cane Intelligence Agent** for quality classification  
+- Provides **decision support for mill workflow** (priority / normal / downgrade)  
+- Enables continuous bulk quality monitoring before crushing  
 
 ---
 
@@ -39,101 +42,93 @@ A non-destructive, conveyor-mounted sensing module that:
 | Concept Ideation | Completed |
 | CAD Modelling | Completed |
 | Prototype Design | In Progress |
-| Calibration Model | Planned |
-| Industrial Validation | Future Phase |  
+| AI Prediction Model | In Progress |
+| AI Agent Integration | Planned |
+| Industrial Validation | Future Phase |
 
 ---
 
-## 🧱 CAD Design & Files  
+## 🧱 CAD Design & Files
+Complete SolidWorks CAD files and rendered prototype models are provided below for design validation and visualization.
 
-Complete SolidWorks CAD files and rendered prototype models are provided in the Google Drive link below for design validation and visualization.  
-
-🔗 https://drive.google.com/file/d/18Oi22u3dc6CT7pVEHQoQmR2mgXaKgzZI/view  
-
----
-
-# 🛠️ SolidWorks CAD Directory Overview  
-
-## 🧩 Main Assemblies  
-
-**Finalassembly.SLDASM** — Complete integrated prototype assembly  
-
-These assemblies illustrate the conveyor platform, sensing modules, housings, and embedded electronics layout.  
+🔗 https://drive.google.com/file/d/18Oi22u3dc6CT7pVEHQoQmR2mgXaKgzZI/view
 
 ---
 
-## 🏗️ Conveyor & Structural Components  
+## 🛠️ SolidWorks CAD Directory Overview
 
-**Folder:** conveyor snapshot/  
+### 🧩 Main Assemblies
+- `Finalassembly.SLDASM` — Complete integrated prototype assembly  
 
-Includes the conceptual conveyor layout, structural frame elements, and integration positioning for inline cane movement.  
-
-This represents the conveyor-integrated sensing platform described in the system architecture.  
-
----
-
-## 🔌 Electronics & Embedded Module Models  
-
-Includes CAD representations of:  
-
-- Arduino module (processing unit)  
-- NE555 timer component (capacitive sensing interface)  
-- Integrated circuit DIP models for sensor interfacing  
-
-These models indicate the planned embedded signal acquisition architecture.  
+Includes conveyor platform, sensing modules, housings, and embedded electronics layout.
 
 ---
 
-## 🔬 Optical & Sensing Components  
+### 🏗️ Conveyor & Structural Components
+**Folder:** `conveyor snapshot/`
 
-Contains:  
+- Conveyor layout and structural frame  
+- Inline cane flow integration  
+- Sensor mounting positions  
 
-- IR diode housing (optical sensing module enclosure)  
-- 5mm LED model (reflectance sensing representation)  
+---
+
+### 🔌 Electronics & Embedded Module Models
+Includes CAD representations of:
+
+- Arduino module (edge processing unit)  
+- NE555 timer (capacitive sensing interface)  
+- Sensor interfacing components  
+
+---
+
+### 🔬 Optical & Sensing Components
+- IR diode housing (optical sensing module)  
+- LED model (reflectance sensing)  
 - Capacitive copper plates (dielectric sensing electrodes)  
-- Sugarcane sample model for sensing simulation context  
-
-These parts form the multimodal sensing interface of the prototype.  
+- Sugarcane sample model  
 
 ---
 
-## 🧰 Custom Mechanical Parts  
-
-Individual .SLDPRT files include:  
-
+### 🧰 Custom Mechanical Parts
 - Arduino housing enclosure  
-- LED display enclosure  
+- Display enclosure  
 - Sensor mounting structures  
-- Copper electrode plates for capacitive sensing  
-
-These components collectively represent the mechanical integration of sensors and electronics.  
+- Capacitive electrode plates  
 
 ---
 
-## 📁 File Formats Provided  
-
-- .SLDPRT — SolidWorks Part Files  
-- .SLDASM — Assembly Files  
-- Snapshot folders — Reference CAD models and component visuals  
-
-The CAD design is a conceptual prototype layout intended for validation, integration study, and future physical prototyping.  
+## 📁 File Formats Provided
+- `.SLDPRT` — SolidWorks Part Files  
+- `.SLDASM` — Assembly Files  
+- Snapshot folders — Visual references  
 
 ---
 
-# 🧠 Technical Approach  
+## 🧠 Technical Approach
 
 - Infrared Optical Reflectance Sensing  
 - Dielectric/Capacitive Property Analysis  
 - Multimodal Sensor Fusion  
-- Calibration-Based Brix Estimation (Refractometer Ground Truth)  
-- Embedded Signal Processing Architecture  
+- **AI-Based Brix Prediction Model**  
+- **AI Cane Intelligence Agent (Quality Classification & Decision Support)**  
+- Real-Time Embedded Signal Processing  
+- Data Logging & Traceability System  
 
 ---
 
-# 🏭 Industrial Relevance & Future Scope  
+## 🤖 AI System Workflow
+- Sensor Data → Feature Extraction → AI Prediction Model → AI Agent → Decision Support → Data Logging
+   
+---
+
+## 🏭 Industrial Relevance & Future Scope
 
 - Conveyor-integrated non-intrusive deployment  
-- Upgrade to industrial NIR sensors  
+- Real-time decision support for mill operations  
+- Upgrade to industrial-grade NIR sensors  
 - IoT-based monitoring dashboard  
-- AI-driven predictive calibration models  
-- Scalable deployment in sugar mills and agro-processing plants  
+- Advanced AI-driven predictive models  
+- Scalable deployment across sugar mills and agro-processing plants  
+
+---
